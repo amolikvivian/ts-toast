@@ -13,7 +13,8 @@ Tried react-toastify, but was running into Typescript errors that I couldn't see
 1. No use of custom hooks, making it independent of React FCs, accessible from js/jsx/ts/tsx files.
 2. No third party dependencies.
 
-### The only downside to this approach would the Javascript verbose that comes with it.
+### Downside 
+1. The only con that I could come across was the Javascript verbose that comes with it.
 
 Attaching below a to-do list, for anyone who would like to contribute.
 
