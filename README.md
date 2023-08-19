@@ -1,6 +1,8 @@
 # Toast - as basic as it gets.
 A basic vanilla JS toast function, with Typescript support. Using TailwindCSS for styles
 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
 Was looking for methods to add toasts/snackbars to projects without having to use third party libraries or create custom hooks to inject toasts.
 Developed something very vanilla, but works just as effectively. 
 
