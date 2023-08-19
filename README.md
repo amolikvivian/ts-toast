@@ -30,7 +30,7 @@ import { showToast } from "utils/toast";
 .
 .
 
-export default App() {
+export default function App() {
 
   const handleToast = () => {
     showToast({
