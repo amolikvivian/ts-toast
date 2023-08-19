@@ -1,6 +1,6 @@
 type ToastOptions = {
   message: string;
-  title: string;
+  title?: string;
   variant?: string;
   duration?: number;
 };
