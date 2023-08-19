@@ -1,4 +1,4 @@
-# Toast - as basic as it gets.
+# Toasts in web, as basic as they get.
 A basic vanilla JS toast function, with Typescript support.
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
