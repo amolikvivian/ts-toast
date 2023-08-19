@@ -1,5 +1,6 @@
 type ToastOptions = {
   message: string;
+  title?: string;
   variant?: string;
   duration?: number;
 };
@@ -7,7 +8,7 @@ type ToastOptions = {
 let currentToast: HTMLDivElement | null = null;
 
 export function showToast(options: ToastOptions): void {
-  const { message, variant = "success", duration = 2000 } = options;
+  const { message, title, variant = "success", duration = 2000 } = options;
 
   if (currentToast) {
     document.body.removeChild(currentToast);
@@ -16,7 +17,20 @@ export function showToast(options: ToastOptions): void {
 
   const toastElement = document.createElement("div");
   toastElement.classList.add("toast", `toast--${variant}`);
-  toastElement.innerText = message;
+
+  // creating a heading element
+  if(title) {
+    const heading = document.createElement("h1")
+    heading.innerText = title
+    heading.classList.add("toast-title")
+    toastElement.appendChild(heading);
+  }
+
+  // creating a message component
+  const text = document.createElement("p")
+  text.innerText = message
+  toastElement.appendChild(text);
+
   document.body.appendChild(toastElement);
 
   currentToast = toastElement;
