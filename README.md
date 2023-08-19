@@ -19,7 +19,7 @@ Developed something very vanilla, but works just as effectively.
 ### To do
 Attaching below a task list, for anyone who would like to contribute.
 
-- [ ] Add a subtext to the toast along with title, for better UI.
+- [x] Add a subtext to the toast along with title, for better UI. - Fixed. [PR]([https://link-url-here.org](https://github.com/amolikvivian/ts-toast/pull/3))
 - [ ] Add functionality to stack toasts if multiple are triggered together. (Current implementation removes the previous toast)
 - [ ] Add a `x` button to close toast on click.
 
