@@ -6,8 +6,8 @@ A basic vanilla JS toast function, with Typescript support.
 Was looking for methods to add toasts/snackbars to projects without having to use third party libraries or create custom hooks to inject toasts.
 Developed something very vanilla, but works just as effectively. 
 
-Using a custom hook to trigger the toast worked well, until I needed to trigger it from my redux files or axios interceptors.
-Tried react-toastify, but was running into Typescript errors that I couldn't seem to work around (would be happy to know any existing solutions).
+- Using a custom hook to trigger the toast worked well, until I needed to trigger it from my redux files or axios interceptors.
+- Tried react-toastify, but was running into Typescript errors that I couldn't seem to work around (would be happy to know any existing solutions).
 
 ### Advantages I found using this method
 1. No use of custom hooks, making it independent of React FCs, accessible from js/jsx/ts/tsx files.
