@@ -20,6 +20,15 @@
   animation: slideRight 0.25s ease-in-out;
 }
 
+/* Toast title */
+.toast-title {
+  font-size: large;
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 /* Green */
 .toast--success {
   background: #16a34a;
