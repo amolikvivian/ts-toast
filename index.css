@@ -1,6 +1,8 @@
 /*
-- Toast is placed at bottom right, change bottom and right properties to fix position accordingly
-- Tinker around with styles to suit your use case
+- Import this stylesheet to your app, or add these classes to your existing stylesheets.
+- Toast is placed at bottom right, change bottom and right properties to fix position accordingly.
+- Tinker around with styles to suit your use case.
+- Would highly recommend TailwindCSS to reduce the lines of CSS.
 */
 
 .toast {
