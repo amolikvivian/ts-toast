@@ -1,5 +1,5 @@
 # Toast - as basic as it gets.
-A basic vanilla JS toast function, with Typescript support. Using TailwindCSS for styles
+A basic vanilla JS toast function, with Typescript support.
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
