@@ -16,13 +16,14 @@ Developed something very vanilla, but works just as effectively.
 ### Downside 
 1. The only con that I could come across was the Javascript verbose that comes with it.
 
-Attaching below a to-do list, for anyone who would like to contribute.
+### To do
+Attaching below a task list, for anyone who would like to contribute.
 
 - [ ] Add a subtext to the toast along with title, for better UI.
 - [ ] Add functionality to stack toasts if multiple are triggered together. (Current implementation removes the previous toast)
 - [ ] Add a `x` button to close toast on click.
 
-Usage : 
+### Usage : 
 
 ```tsx
 import { showToast } from "utils/toast";
