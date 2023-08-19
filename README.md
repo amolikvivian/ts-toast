@@ -26,6 +26,7 @@ Attaching below a task list, for anyone who would like to contribute.
 ### Usage : 
 
 ```tsx
+import "./index.css";
 import { showToast } from "utils/toast";
 .
 .
@@ -35,7 +36,7 @@ export default function App() {
 
   const handleToast = () => {
     showToast({
-      message: "Toasting up!,
+      message: "Toasting up!",
       variant: "success" // "danger" | "warning" | "info"
     });
   }
